@@ -1,0 +1,79 @@
+/* General styling */
+body {
+  font-family: sans-serif;
+  margin: 40px;
+  background-image: url(./Assets/blue-gradient.webp);
+  align-items: center;
+  /* width: 40%; */
+
+}
+.addTask{
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.addTask button{
+  background-color: #007bff; /* Primary blue */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 35px;
+}
+.addTask input{
+  width: 50%;
+  height:30px;
+  border-radius: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Task styling */
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li span {
+  display: inline-block;
+  width: 80%;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+/* Editing form styling */
+li form {
+  display: flex;
+  align-items: center;
+}
+
+li input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+li button {
+  background-color: #007bff; /* Primary blue */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #0062cc; /* Darker blue on hover */
+}
