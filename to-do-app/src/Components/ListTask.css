@@ -1,0 +1,49 @@
+/* General styling */
+.list-task {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    }
+    
+    /* Task list styling */
+    .task-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .task-list li {
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    /* Editing form styling */
+    .task-list form {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .task-list input {
+        flex-grow: 1;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    
+    .task-list button {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        background-color: #f0f0f0;
+        cursor: pointer;
+    }
+    
+    /* Done tasks styling (optional) */
+    .task-list li.done {
+        text-decoration: line-through;
+        color: gray;
+    }
+    

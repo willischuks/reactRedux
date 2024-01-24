@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { toggleTodo, editTodo, removeTodo } from './todoSlice';
 import Task from './Task';
 import Filter from './Filter';
+import './ListTask.css';
 
 const ListTask = () => {
     const todos = useSelector((state) => state.todos.todos);
